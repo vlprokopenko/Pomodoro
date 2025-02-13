@@ -11,7 +11,7 @@ bool rest;
 
 int main();
 
-int check_for_pomodoro() {
+void check_for_pomodoro() {
   if (minute == 25) {
     pomodoro_count++;
     printf("Pomodoro count:" + pomodoro_count);
